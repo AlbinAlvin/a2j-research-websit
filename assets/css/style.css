@@ -557,16 +557,14 @@ input::-ms-input-placeholder {
 }
 
 .main_menu_bg.scrolled {
-  background: black;
-  color: white;
+   background: rgba(200, 200, 200, 0.7); 
+   backdrop-filter: blur(8px); 
 }
 
 .main_menu_bg .navbar-default {
-    background-color: transparent; 
-    border-color: transparent; 
-    transition: all .6s;
-    margin: 15px auto;
+    background-color: transparent;
 }
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color:#ff7200;
     background: transparent;
@@ -585,7 +583,7 @@ input::-ms-input-placeholder {
     padding-top: 15px;
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -600,6 +598,12 @@ input::-ms-input-placeholder {
     background-color:transparent;
     color:#f5c239;
 
+}
+
+.navbar.navbar-default,
+.navbar.navbar-default.small {
+    border: none;
+    /* margin-bottom: 0; */
 }
 
 .dropdown-menu {
@@ -964,36 +968,59 @@ input::-ms-input-placeholder {
 
 
 /*others service section css*/
-.othersservice{
+/* Section */
+.othersservice {
     background: #ffffff;
-}
-.main_othersservice_area{}
-.othersservice .single_othersservice {
-    margin-bottom:30px;
-    margin-top:20px;
-    display: inline-block;
-    width:100%;
-
+    padding: 60px 0;
 }
 
-.othersservice .single_othersservice .single_othersservice_icon{}
-.othersservice .single_othersservice .single_othersservice_icon h4 i{
-    color:#444;
-    font-size:2rem;
-    background: url(../images/iconbg2.png) no-repeat center center;
-    width:64px;
-    height:65px;
-    line-height: 65px;
-    text-align: center;  
+/* Title FIX */
+.head_title {
+    padding-left: 15px;   /* ✅ Fix left cut issue */
+    margin-bottom: 40px;
+}
+
+.head_title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Orange line */
+.separator {
+    width: 80px;
+    height: 3px;
+    background: #ff7200;
+    margin-top: 10px;
+}
+
+/* Service Cards */
+.single_othersservice {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.single_othersservice:hover {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+/* Icon */
+.single_othersservice h4 i {
+    font-size: 22px;
     margin-right: 10px;
-    transition: 0.6s; 
+    color: #ff7200;
 }
-.othersservice .single_othersservice:hover .single_othersservice_icon h4 i{
-    background: url(../images/iconbgh2.png) no-repeat center center; 
-    color:#fff;
-}
-.othersservice .single_othersservice .single_othersservice_content{
 
+/* Text */
+.single_othersservice p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 14px;
 }
 
 
