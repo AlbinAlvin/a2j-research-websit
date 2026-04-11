@@ -1,4 +1,4 @@
-
+​
 
 /*
 Author: Bootstrapthemes
@@ -10,8 +10,8 @@ Author URI: http://bootstrapthemes.co
 html,
 body {
     background-color: #fff;
-    font-size: 0.875rem;
-    color: #797979;
+    font-size: 1rem;
+    /* color: #797979; */
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -192,7 +192,7 @@ h6 {
 }
 p {
     line-height: 2rem;
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 p:last-child {
     margin-bottom: 0px;
@@ -555,6 +555,12 @@ input::-ms-input-placeholder {
     margin-top: 0px;
     background-color: transparent;
 }
+
+.main_menu_bg.scrolled {
+  background: black;
+  color: white;
+}
+
 .main_menu_bg .navbar-default {
     background-color: transparent; 
     border-color: transparent; 
@@ -639,9 +645,7 @@ input::-ms-input-placeholder {
 .head_title h3{
     color:#413d4b;
 }
-.head_title p{
-    font-family: 'playfair_displayregular';
-}
+
 
 /*home section*/
 .home{
@@ -670,7 +674,6 @@ input::-ms-input-placeholder {
 
 
 .home .owl-theme .owl-nav {
-    margin-top: 80px;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
 }
