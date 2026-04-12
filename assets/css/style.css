@@ -1633,6 +1633,11 @@ button.btn-md:hover {
 
 }
 
+.main_othersservice_content {
+    display: flex;
+    flex-flow: wrap;
+}
+
 
 
 
