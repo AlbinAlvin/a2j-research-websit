@@ -192,7 +192,8 @@ h6 {
 }
 p {
     line-height: 2rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 p:last-child {
     margin-bottom: 0px;
@@ -1638,8 +1639,10 @@ button.btn-md:hover {
     flex-flow: wrap;
 }
 
-
-
+.panel-body-font-weight
+{
+    font-weight: 600;
+}
 
 
 
