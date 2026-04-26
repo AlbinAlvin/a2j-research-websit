@@ -176,7 +176,7 @@ h3 {
     font-weight: 600;
 }
 h4 {
-    font-size: 1rem;
+    font-size: 1.50rem;
     line-height: 2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -668,14 +668,15 @@ input::-ms-input-placeholder {
 .home .main_home h1{
     color: #fff;
     margin-bottom:20px;
+    font-weight: 600;
 }
 .home .main_home p{
     color: #fff;
     max-width: 60%;
     margin: 0 auto;
     padding-bottom: 30px;
-    font-size:1.125rem;
-
+    font-size:1.750rem;
+font-weight: 600;
 }
 
 
@@ -729,6 +730,8 @@ input::-ms-input-placeholder {
     background: url(../images/stabmenubg.png) no-repeat top center;
     border:0px;
     transition: all 0.6s;
+    font-weight: 600;
+    font-size: 1.50rem;
 }
 .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
     background: url(../images/stabmenubghv.png) no-repeat top center;
