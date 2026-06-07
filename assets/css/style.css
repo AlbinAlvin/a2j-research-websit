@@ -560,7 +560,7 @@ input::-ms-input-placeholder {
 }
 
 .main_menu_bg.scrolled {
-   background: rgba(200, 200, 200, 0.7); 
+   background: rgb(0 0 0);
    backdrop-filter: blur(8px); 
 }
 
@@ -591,11 +591,30 @@ input::-ms-input-placeholder {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+.navbar-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 10;
+}
+
 .navbar-brand {
     padding: 0px 15px;
+    margin: 0;
+    height: 80px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 .navbar-brand>img {
-    max-width: 80%;
+    max-width: 100%;
+    height: auto;
+    max-height: 75px;
+    width: auto;
+    display: block;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
