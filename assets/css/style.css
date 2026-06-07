@@ -556,7 +556,7 @@ input::-ms-input-placeholder {
 
 .main_menu_bg{
     margin-top: 0px;
-    background-color: transparent;
+    background-color: #000000;
 }
 
 .main_menu_bg.scrolled {
